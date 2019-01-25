@@ -1,0 +1,34 @@
+#green-title {
+    color: green;
+}
+
+.georgia {
+    font: georgia;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.lineH {
+    line-height: 25px;
+}
+
+#upper-case {
+    text-transform: uppercase;
+}
+
+img {
+    float: left;
+    height: auto;
+    width: 30%;
+    margin: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
