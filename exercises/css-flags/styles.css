@@ -1,0 +1,44 @@
+/* reference: https://codepen.io/m3uc/pen/KaqrG */
+/* maybe: https://www.phoca.cz/cssflags/ */
+/* video: https://www.youtube.com/watch?v=arz8LBJgbmQ */
+
+
+/* Use classes to determine size and shape then apply it to all the suckers */
+
+/* .FLAG {
+margin: 1em;
+height: 150px;
+width: 200px;
+float: left;
+} */
+body {
+    background-color: #ccc;
+}
+
+.french-flag {
+    padding: 33.33%;
+    background-color: white;
+    position: relative;
+}
+
+.french-flag:before {
+    content: "";
+    width: 33.33%;
+    /* width:100px; */
+    height: 100%;
+    background-color: #0055A4;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+
+.french-flag:after {
+    content: "";
+    width: 33.33%;
+    /* width: 100px; */
+    height: 100%;
+    background-color: #EF4135;
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
