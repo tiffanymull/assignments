@@ -1,44 +1,103 @@
-/* reference: https://codepen.io/m3uc/pen/KaqrG */
-/* maybe: https://www.phoca.cz/cssflags/ */
-/* video: https://www.youtube.com/watch?v=arz8LBJgbmQ */
-
-
-/* Use classes to determine size and shape then apply it to all the suckers */
-
-/* .FLAG {
-margin: 1em;
-height: 150px;
-width: 200px;
-float: left;
-} */
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
 body {
-    background-color: #ccc;
+    background-color: 875B0D;
 }
 
-.french-flag {
-    padding: 33.33%;
-    background-color: white;
+.Flag {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin: 15px;
     position: relative;
 }
 
-.french-flag:before {
-    content: "";
+.France1 {
+    padding: 33.33%;
+    background-color:white;
+    position: relative;
+}
+.France2 {
     width: 33.33%;
-    /* width:100px; */
     height: 100%;
-    background-color: #0055A4;
+    background-color: blue;
     position: absolute;
     top: 0;
     left: 0;
-} 
-
-.french-flag:after {
-    content: "";
+}
+.France3 {
     width: 33.33%;
-    /* width: 100px; */
     height: 100%;
-    background-color: #EF4135;
+    background-color: red;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.Germany1 {
+    width: 100%;
+    height: 33.33%;
+    background-color: black;
+    position: relative;
+}
+.Germany2 {
+    width: 100%;
+    height: 33.33%;
+    background-color: red;
+    position: absolute;
+    
+}
+.Germany3 {
+    width: 100%;
+    height: 33.33%;
+    background-color: yellow;
+    position: absolute;
+    margin-top: 33.33%;
+    bottom: 0;
+}
+
+.Madagascar1 {
+    width: 33.33%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    left: 0;
+}
+
+.Madagascar2 {
+    width: 66.66%;
+    height: 50%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Madagascar3 {
+    width: 66.66%;
+    height: 50%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Switzerland1 {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: relative;
 } 
+
+/* /* look into z index for working with layers */
+
+.Switzerland2 {
+    width:70%;
+    height: 15%;
+    background-color: white;
+    top: 20px;
+    bottom: 20px;
+    position: absolute
+}
