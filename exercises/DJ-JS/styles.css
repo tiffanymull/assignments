@@ -1,0 +1,14 @@
+.crazy-box {
+    height: 400px;
+    width: 400px;
+    background-color: #ef8989;
+    margin: auto;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.makeRed {
+    background-color: red;
+}
