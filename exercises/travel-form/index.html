@@ -1,0 +1,61 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="styles.css" /> -->
+</head>
+<body>
+    
+    <form name="travelform">
+        <select name="select1">
+            <option value="Burma"> Burma </option>
+            <option value="Brazil"> Brazil </option>
+            <option value="Ireland"> Ireland </option>
+            
+        </select>
+
+        <input id="firstName"
+            type="text"
+            placeholder="Name" 
+            />
+
+        <input id="surname" 
+            type="text"
+            placeholder="Surname"
+            />  
+                <!-- could put required below placeholder and before /> but
+                I took it out on each one -->
+
+        <input id="aged"
+            type="number"
+            placeholder="Age"
+            min="18"
+            /><br><br><br><br>
+         <div>         
+            <input type="radio" name="gender" value="female"/>Female<br>
+            <input type="radio" name="gender" value="male"/>Male<br>
+            <input type="radio" name="gender" value="non-binary"/>Non-binary<br>
+            <input type="radio" name="gender" value="Why the hell do you care?"/>Why the hell do you care?<br>
+          </div>
+        <br>
+
+        <input type="checkbox" name="dietary restrictions" value="vegan"/>Vegan
+        <input type="checkbox" name="dietary restrictions" value="vegetarian"/>Vegetarian
+        <input type="checkbox" name="dietary restrictions" value="kosher"/>Kosher
+        <input type="checkbox" name="dietary restrictions" value="lactose free"/>Lactose Free
+        <input type="checkbox" name="dietary restrictions" value="gluten free"/>Gluten Free
+
+<br><br>
+
+        <button id="returninfo">Submit</button>
+
+    </form>
+
+    
+    <script src="app.js"></script>
+
+</body>
+</html>

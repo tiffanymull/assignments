@@ -46,3 +46,9 @@ function makeBoxOrange(event) {
 }
 
 box.addEventListener("wheel", makeBoxOrange);  //except i made it when scroll over box not anywhere in window
+
+//they found a way to work around it by using an id for the body
+// then they used if statements to say if background of body is not pink,
+//somehow this made the background the target rather than
+//the box element.  The secret is the if statements.
+//actually maybe the secret is not the if statements.
