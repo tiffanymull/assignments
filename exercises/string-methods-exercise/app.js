@@ -16,10 +16,10 @@
 //     halfLengthRoundDown('slapper')
 
 //Make function uses slice() and the other functions you've written
-//to return the first half of the string.
+//to return the first half of the string. NOT working.
 
-function returnFirstHalf(theParam) {
-    console.log((Math.floor(theParam.length/2)).slice)
-}
-    returnFirstHalf('Bump')
+// function returnFirstHalf(theParam) {
+//     console.log((Math.floor(theParam.length/2)).slice)
+// }
+//     returnFirstHalf('Jump')
 

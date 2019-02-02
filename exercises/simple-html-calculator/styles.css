@@ -1,0 +1,27 @@
+body {
+    background-color: EEF0F9;
+}
+
+.calculations {
+    margin: auto;
+    padding: 20px;
+    padding-left: 150px;
+    
+}
+
+#add-it {
+    margin:auto;
+    
+}
+
+.button {
+    background-color: C1E5C5;
+    border-block-end: 2 px;
+    border-color: red;
+    
+}
+
+.calculations {
+    color: 9E0DCA;
+}                   
+/* I don't get why the caluclations class won't work to manipulate text color     */

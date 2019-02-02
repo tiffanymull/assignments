@@ -6,36 +6,39 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-    <script src="app.js"></script>
 </head>
 <body>
 <form name="calculator">
     <h1 id="answer"></h1>
-    <div>math operation
+    <div id="add-it" class = "calculations">Add<br>
         <input  type="number" id="num1"    />
         <input  type="number" id="num2"   />
 
-        <button onclick="sum">Add</button>
+        <button id="summation" class="button">Add</button>
+        <div id="addResult"></div>
     </div>
 
 
-    <div>math operation
-        <input  type="number"     />
-        <input  type="number"    />
+    <div id="subtract-it" class = "calculations">Subtract<br>
+        <input  type="number" id="num3"    />
+        <input  type="number" id="num4"   />
 
-        <button>Subtract</button>
+        <button id="subtraction" class="button">Subtract</button>
+        <div id="subtractResult"></div>
     </div>
 
 
-    <div>math operation
-        <input  type="number"    />
-        <input  type="number"   />
+    <div id="multiply-it" class = "calculations">Multiply<br>
+        <input  type="number" id="num5"   />
+        <input  type="number" id="num6"  />
 
-        <button>Multiply</button>
+        <button id="multiplication" class = "button">Multiply</button>
+        <div id="multiplyResult"></div>
     </div>
     
 
   </form>
-
+  <script src="app.js"></script>    
+  <!-- be sure script app.js is alwyas just before the closing body at the bottom of html -->
 </body>
 </html>

@@ -6,14 +6,67 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-    <script src="app.js"></script>
 </head>
 <body>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+    <h1>Mario Pest Control</h1>
+   
+   
+    <form>
+    <ol>
+
+        <li id="goomba">
+
+            Goomba Price: $1.00 <br>
+                <input 
+                    id="numOfGoomba"
+                    type=number 
+                    placeholder="Number Caught"
+                    name=shroomMonster
+                    min="0"/>
+            <img src="Goomba.jpg" />
+        </li>
+
+        <li id="bobomb">
+
+           Bo-bomb Price: $20.00 <br>
+                <input 
+                    id="numOfBobomb"
+                    type=number 
+                    placeholder="Number Caught"
+                    name=bombMonster
+                    min="0"/>
+                    
+            <img src="Bobomb.jpg" />
+        </li>
+
+        <li id="cheepcheep">
+
+            Cheep-cheep Price: $5.00 <br>
+                <input 
+                    id="numOfCheepCheep"
+                    type=number 
+                    placeholder="Number Caught"
+                    name=fishMonster
+                    min="0"/>
+    
+            <img src="Cheepcheep.jpg" />
+        </li>
+
+    </ol>
+
+
+
+
+
+
+        <button id="addAllTogether">Total</button>
+    </form>
+
+    <footer>Mario's email: mario@mario.games <br>
+            Mario's address: 425 Nintendo Dr.<br>
+            <a href="https://www.mariobadescu.com/">Company Website</a>
+    </footer>
+
+<script src="app.js"></script>
 </body>
 </html>
