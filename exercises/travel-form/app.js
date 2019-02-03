@@ -1,34 +1,45 @@
 
 //This allows user to select a locale
 document.travelform.addEventListener("submit", function(e) {
-    e.preventDefault()
+    e.preventDefault();
 
 
-    var firstName = document.getElementById("firstName").value  //<--could've gotten
-    var surname = document.getElementById("surname").value      // by name?
-    var aged = document.getElementById("aged").value
+    var firstName = document.getElementById("firstName").value;  //<--could've gotten
+    var surname = document.getElementById("surname").value;      // by name?
+    var aged = document.getElementById("aged").value;
     var gender;
     var dietSelect = [];
+    var locale;
 //https://stackoverflow.com/questions/9618504/how-to-get-the-selected-radio-button-s-value
 
     var radios = document.getElementsByName("gender");
-        for (var i = 0, length = radios.length; i < length; i++) {
+        for (var i = 0; i < radios.length; i++) {
             if (radios[i].checked) {
                 gender = radios[i].value;
             }
         }
+    var dropDown = document.getElementsByName("select1");
+        // var locale = dropDown.options[dropDown.selectedindex].value;
     
-    var checkboxes = document.getElementsByName("dietary restrictions");
-        for (var dietRestrict = document.
-            
-            ))
-  
-        
+        for (var i = 0; i < dropDown.length; i++) {
+            if (dropDown[i].s) {
+                locale = dropDown[i].value;
+            }
+        }
 
+    var checkboxes = document.getElementsByName("dietary restrictions");
+        for (var i = 0; i< checkboxes.length; i++) {
+            if (checkboxes[i].checked) {
+                dietSelect.push(checkboxes[i].value);      //<-- so it displays any combination of selections
+            }
+        }
+            
 
     alert ("First Name: " + firstName + "\nLast Name: " + surname
-            + "\nAge: " + aged + "\nGender: " + gender + "\nDietary Restrictions: "
-            + dietSelect.toString)
+            + "\nAge: " + aged + "\nGender: " + gender + "\nLocale: " + locale +
+            "\nDietary Restrictions: "
+            + dietSelect.join(", ")); //<-- if you have an array, you can put it into
+                                            // a string that prints with commas with toString()
 
 })
 
@@ -59,6 +70,3 @@ document.travelform.addEventListener("submit", function(e) {
 
                                     //     return outputput;
                                                 // }
-
-
-

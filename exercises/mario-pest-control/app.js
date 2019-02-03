@@ -12,3 +12,5 @@ function calculatePrice (event) {
 
 }
 document.getElementById("addAllTogether").addEventListener("click", calculatePrice)
+
+
