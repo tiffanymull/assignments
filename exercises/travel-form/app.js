@@ -20,7 +20,7 @@ document.travelform.addEventListener("submit", function(e) {
         }
     var dropDown = document.getElementsByName("select1");
         // var locale = dropDown.options[dropDown.selectedindex].value;
-    
+        //I actually think I need a while loop for the drop down.
         for (var i = 0; i < dropDown.length; i++) {
             if (dropDown[i].s) {
                 locale = dropDown[i].value;

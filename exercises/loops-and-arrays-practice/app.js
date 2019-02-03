@@ -1,9 +1,15 @@
-//#1
+//#1. Loop through the following array and count how many "computerS" there are. Log the final count.
 // var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer",  "computer"]
 
-// console.log(officeItems.length)
+// for(var i = 0; i <officeItems.length; i++) {
+//     if (officeItems[i] === "computer") {
+//       console.log(i);          //<-- this identifies the index number of the computers, revealing 4
+//     }
+// }
 
-//#2
+
+//#2. Loop through the following array and log to the console "old enough"
+//if they are 18 or older  and "not old enough" if not.
 var peopleWhoWantToSeeMadMaxFuryRoad = [
     {
       name: "Mike",
