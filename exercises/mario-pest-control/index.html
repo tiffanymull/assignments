@@ -14,44 +14,44 @@
     <form>
     <ol>
 
-        <li id="goomba">
+        <li class="baddy">
 
-            Goomba Price: $1.00 <br>
+            Goomba Price: 5 Coins <br>
                 <input 
                     id="numOfGoomba"
                     type=number 
                     placeholder="Number Caught"
                     name=shroomMonster
                     min="0"/>
-            <div class="container">
+            <div class="container" id = "goomba">
             <img src="Goomba.png" />
             </div>
         </li>
 
-        <li id="bobomb">
+        <li class="baddy">
 
-           Bo-bomb Price: $20.00 <br>
+           Bo-bomb Price: 7 Coins <br>
                 <input 
                     id="numOfBobomb"
                     type=number 
                     placeholder="Number Caught"
                     name=bombMonster
                     min="0"/>
-            <div class="container">      
+            <div class="container" id="bobomb">      
             <img src="Bobomb.png" />
             </div>
         </li>
 
-        <li id="cheepcheep">
+        <li class="baddy">
 
-            Cheep-cheep Price: $5.00 <br>
+            Cheep-cheep Price: 11 Coins <br>
                 <input 
                     id="numOfCheepCheep"
                     type=number 
                     placeholder="Number Caught"
                     name=fishMonster
                     min="0"/>
-            <div class="container">
+            <div class="container" id ="cheepcheep">
             <img src="Cheepcheep.png" />
              </div>
             </li>
@@ -65,6 +65,7 @@
 
 
         <button id="addAllTogether">Total</button>
+        <div id="writeTotal"></div>
     </form>
 
     <footer>Mario's email: mario@mario.games <br>

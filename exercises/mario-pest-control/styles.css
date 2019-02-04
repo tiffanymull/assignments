@@ -5,20 +5,29 @@ body {
     background-color: 80C9DF;
 }
 
-/* .container {
-    max-width: 500px;
-    max-height: 500px;
-} */
-/* 
+
+
 #goomba{
-    position: absolute
+    width: 33.33%
 }
 
 #bobomb{
-    position: relative
+    width: 33.33%
 }
 
 #cheepcheep{
-    position: relative
-} */
+    width: 33.33%
+} 
 
+.container {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    width: 300px;
+    height: auto;
+}
+
+img.resize {
+    max-width: 200px;
+    height: 300px;
+}
