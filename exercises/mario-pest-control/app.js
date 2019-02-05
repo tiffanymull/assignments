@@ -8,7 +8,7 @@ function calculatePrice (event) {
     
       var sum = parseInt(addAllThree1) * 5 + parseInt(addAllThree2) * 7 + parseInt(addAllThree3) * 11;
 
-      document.getElementById("writeTotal").innerHTML = `${sum}`
+      document.getElementById("writeTotal").innerHTML = `${sum}` // just sum would have worked here
 
 }
 document.getElementById("addAllTogether").addEventListener("click", calculatePrice)
