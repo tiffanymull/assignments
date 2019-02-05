@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Form</title>
+</head>
+<body>
+    <h1>Welcome to Blah Blah Airlines!</h1>
+    <p>Please fill out the following form so we don't accidentally kill you.</p>
+    <form id="airline-form" name="bugForm">
+        
+        <input type="text" name="first-name" id="theFirstName">
+        <label for="">First Name</label>
+        <br>
+
+        <input type="text" name="last-name" id="theLastName">
+        <label for="">Last Name</label>
+        <br>
+        
+        <input type="number" name="ages" id="aged" min="0">
+        <label for="">Age</label>
+        
+        <br>
+        <input type="radio" name="gender" value="Female" id="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" value="Male" id="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" value="Meh" id="meh">
+        <label for="meh">Meh</label>
+        <br>
+        
+        <select name="travel-location" id="travelThere">
+            <option value="Here">Here</option>
+            <option value="There">There</option>
+            <option value="Somewhere">Somewhere</option>
+        </select>
+        <label for="">Where are you going?</label>
+        <br>
+        
+        <input type="checkbox" name="dietary restrictions" value="Vegan">
+        <label for="vegan">Vegan</label>
+        <br>
+        <input type="checkbox" name="dietary restrictions" value="Gluten-free">
+        <label for="gluten">Gluten-free</label>
+        <br>
+        <input type="checkbox" name="dietary restrictions" value="Paleo">
+        <label for="paleo">Paleo, jk you eat what we give you!</label>
+        <br><br>
+       
+       
+        <!-- <input class="diet" type="checkbox" name="dietary restrictions" id="vegan" value="vegan">
+        <label for="vegan">Vegan</label>
+        <b>
+        <input class="diet" type="checkbox" name="dietary restrictions" id="gluten" value="gluten-free">
+        <label for="gluten">Gluten-free</label>
+        <br>
+        <input class="diet" type="checkbox" name="dietary restrictions" id="paleo" value="paleo">
+        <label for="paleo">Paleo, jk you eat what we give you!</label>
+        <br> -->
+        
+        <button id="returninfo">Submit</button>
+        <!-- <button type="button" id="submit">Submit</button> -->
+    </form>
+
+<script src="app.js"></script>
+
+</body>
+</html>

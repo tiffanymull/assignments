@@ -5,7 +5,7 @@ document.travelform.addEventListener("submit", function(e) {
 
 
     var firstName = document.getElementById("firstName").value;  //<--could've gotten
-    var surname = document.getElementById("surname").value;      // by name?
+    var surname = document.getElementById("surname").value;      // by name? Nope, doesn't seem so
     var aged = document.getElementById("aged").value;
     var gender;
     var dietSelect = [];
