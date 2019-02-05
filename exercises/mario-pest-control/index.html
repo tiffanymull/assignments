@@ -7,18 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
-<body>
-    <h1>Mario Pest Control</h1>
+<body background="cloudy cartoon background.png">
+    <h1 class="heading"> Mario's Pest Control</h1>
    
    
     <form>
-    <ol>
+    <div class="theWholeList">
+        <ol>
 
-        <li class="baddy">
+        <li class="baddy" id="baddyGoomba">
+            <!-- style="display:inline-block"> -->
 
             Goomba Price: 5 Coins <br>
                 <input 
                     id="numOfGoomba"
+                    class="inputPosition"
                     type=number 
                     placeholder="Number Caught"
                     name=shroomMonster
@@ -28,11 +31,13 @@
             </div>
         </li>
 
-        <li class="baddy">
+        <li class="baddy" id="baddyBobomb">
+            <!-- style="display:inline-block"> -->
 
            Bo-bomb Price: 7 Coins <br>
                 <input 
                     id="numOfBobomb"
+                    class="inputPosition"
                     type=number 
                     placeholder="Number Caught"
                     name=bombMonster
@@ -42,11 +47,13 @@
             </div>
         </li>
 
-        <li class="baddy">
+        <li class="baddy" id="baddyCheepcheep">
+            <!-- style="display:inline-block"> -->
 
             Cheep-cheep Price: 11 Coins <br>
                 <input 
                     id="numOfCheepCheep"
+                    class="inputPosition"
                     type=number 
                     placeholder="Number Caught"
                     name=fishMonster
@@ -56,22 +63,24 @@
              </div>
             </li>
         </li>
-
+    </div>
     </ol>
 
 
 
 
 
+    <div class="wrapper">
 
-        <button id="addAllTogether">Total</button>
+        <button id="addAllTogether" class="button">Total Coins</button>
         <div id="writeTotal"></div>
-    </form>
+    </div>
 
-    <footer>Mario's email: mario@mario.games <br>
+    </form>
+            <footer class="footer">Mario's email: mario@mario.games <br>
             Mario's address: 425 Nintendo Dr.<br>
             <a href="https://www.mariobadescu.com/">Company Website</a>
-    </footer>
+            </footer>
 
 <script src="app.js"></script>
 </body>
