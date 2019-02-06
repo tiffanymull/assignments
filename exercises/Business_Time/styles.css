@@ -1,0 +1,26 @@
+
+
+html { 
+    background: url(Mulled\ Over\ Left.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* Use @media to make it responsive
+
+if (phone size) do this {}
+
+if (tablet size) do this {}
+
+if (larger than tablet) do this {} */

@@ -1,5 +1,9 @@
 var readline = require('readline-sync')
 
+//Declare stuff up here, then access it below.  You can assign it to numbers.  [1].  Set conditions to true or false, etc. Indexes
+//Maybe see if you can incorporate a while loop.  Use, of course if/else/if/else OR switch statements. It'd be good to get familiar 
+//with switch statements.
+
 //1.
 var playerName = readline.question('What\'s your name?')
     console.log('Hi, ' + playerName + ', you\'re in trouble. ')
