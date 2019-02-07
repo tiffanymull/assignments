@@ -77,6 +77,19 @@ h2 {
     margin-left: 47%;
 }
 
+.dropDown{
+    margin-top: 15%;
+    width: 285px;
+    height: 200 px;
+    background: rgba(0,0,0,.7);
+    margin-left: 47%;
+}
+
+form {
+    color: gainsboro;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 p {
     color: gainsboro; 
     font-family: 'Times New Roman', Times, serif;

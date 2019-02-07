@@ -1,12 +1,34 @@
-var readline = require('readline-sync')
+var readline = require('readline-sync');
 
 //Declare stuff up here, then access it below.  You can assign it to numbers.  [1].  Set conditions to true or false, etc. Indexes
 //Maybe see if you can incorporate a while loop.  Use, of course if/else/if/else OR switch statements. It'd be good to get familiar 
 //with switch statements.
 
-//1.
+var isAlive = true;
+var hasKey = false;
+
 var playerName = readline.question('What\'s your name?')
     console.log('Hi, ' + playerName + ', you\'re in trouble. ')
+
+while(isAlive){
+    
+    ask what do you want to do? 3 options
+    if option 1 { //put hand in hole
+        console. youre dead
+        isAlive = false
+    }else if option 2{ //open door
+        do this
+        if has key {
+            console open good job
+            isAlive = false
+        }else {
+            consoel go find key
+        }
+    }else if option 3{
+        do this
+    }
+}
+//1.
 
 // //2.
 var handHole = readline.question('You\'re trapped in a room. You need to get out or you\'ll die. There is a hole in the wall. Do you stick your hand in it? Type Yes or No.')
