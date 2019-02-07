@@ -8,11 +8,97 @@ html {
     background-size: cover;
   }
 
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 45%;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    color: gainsboro;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;  
+}
+
+h2 {
+    color: gainsboro; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.pageTitle {
+    position: fixed;
+    width: 250px;
+    margin-left: 9%;
+    bottom: 5px;
+    background: rgba(0,0,0,.7);
+}
+
+.pageTitleHome {
+    position: fixed;
+    width: 185px;
+    margin-left: 9%;
+    bottom: 5px;
+    background: rgba(0,0,0,.7);
+}
+
+.blackBoxServices {
+    width: 285px;
+    height: 200 px;
+    background: rgba(0,0,0,.7);
+    margin-left: 47%;
+}
+
+.contactInfo {
+    width: 300px;
+    height: 200 px;
+    background: rgba(0,0,0,.7);
+    margin-left: 47%;
+    margin-top: 15%;
+}
+
+.blackBoxTable {
+    width: 285px;
+    height: 200 px;
+    background: rgba(0,0,0,.7);
+    margin-left: 47%;
+}
+
+.deliverables{
+    width: 285px;
+    height: 200 px;
+    background: rgba(0,0,0,.7);
+    margin-left: 47%;
+}
+
+p {
+    color: gainsboro; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
 ul {
+    color: gainsboro; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    color: gainsboro; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 
 

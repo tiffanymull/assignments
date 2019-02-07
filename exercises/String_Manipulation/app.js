@@ -37,7 +37,17 @@ var repeatTheStory = readline.question('Good story, though. I\'d like to repeat 
     console.log(tellMeAStory.charAt(repeatTheStory));
     
     
-    
+// Would something like this work?
+    // function charCount(myChar, str) {
+    //     var counter = 0
+    //     for (var i = 0; i < str.length; i++ ){
+    //       if (str[i] === myChar ) {
+    //         console.log((myChar, str));
+    //         counter++
+    //       }
+    //     }
+    //     return counter
+    //   }
     
     // for (var i = 0; i <= tellMeAStory.length; i++) {
     //     if (i <= tellMeAStory.length) {
