@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+div {
+    
+}
+
+.peptobox {
+    height: 100px;
+    width: 99%;
+    padding: 10px;
+    border: #F5C6D6;
+    background-color: #F5C6D6;
+    margin: 5px;
+}
+.firstpinkbox {
+    display: inline-block;
+    height: 100px;
+    width: 24%;
+    padding: 10px;
+    border:#EE2E84;
+    background-color:#EE2E84;
+    margin: 5px;
+}
+.secondpinkbox {
+    display: inline-block;
+    height: 100px;
+    width: 24%;
+    padding: 10px;
+    padding-left: 10px;
+    border:#EE2E84;
+    background-color:#EE2E84;
+    margin: 5px;
+}
+.thirdpinkbox{
+    display: inline-block;
+    height: 100px;
+    width: 24%;
+    padding: 10px;
+    border:#EE2E84;
+    background-color:#EE2E84;
+    margin: 5px;
+}
+.fourthpinkbox{
+    display: inline-block;
+    height: 100px;
+    width: 24%;
+    padding: 10px;
+    border:#EE2E84;
+    background-color:#EE2E84;
+    margin: 5px;
+}
+.firstbluebox{
+    display: inline-block;
+    height: 100px;
+    width: 49%;
+    padding: 10px;
+    border:#85CFD8;
+    background-color:#85CFD8;
+    margin: 5px;
+}
+.secondbluebox{
+    display: inline-block;
+    height: 100px;
+    width: 49%;
+    padding: 10px;
+    border:#85CFD8;
+    background-color:#85CFD8;
+    margin: 5px;
+}
+.greenbox{
+    display: inline-block;
+    height: 100px;
+    width: 60%;
+    padding: 10px;
+    border:#8DC63F;
+    background-color:#8DC63F;
+    margin: 5px;
+}
+.orangebox{
+    display: inline-block;
+    height: 100px;
+    width: 38%;
+    padding: 10px;
+    border:#E76E34;
+    background-color:#E76E34;
+    margin: 5px;
+}
