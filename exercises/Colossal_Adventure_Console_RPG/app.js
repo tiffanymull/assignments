@@ -23,7 +23,7 @@ var ringmaster = {
     inventory: ['baton']
 }
 
-function encounter(aggressor){
+function encounter(aggressor){         //<--The clown, ringmaster, or acro pass through aggressor. It remembers which it is.
     var chanceOfEscape = 1;
     while((player1.health > 0 && aggressor.health > 0) && chanceOfEscape === 1){
       var action = readline.keyIn('Would you like to [r] run or [f] fight? ', {limit: '$<rf>'});
@@ -32,7 +32,7 @@ function encounter(aggressor){
         if(chanceOfEscape === 0){
             console.log("You got away. ")
         } else if(chanceOfEscape === 1){
-            var playerDamage = Math.floor(Math.random()*9 + 1); //<--only if needed to say how much damage they did 
+            var playerDamage = Math.floor(Math.random()*9 + 1); //<--only variable need playerDamage if you want to say how much damage they did 
             player1.health = player1.health - playerDamage; //<--otherwise could replace playerDamage with Math.etc.
             console.log('You can\'t get away and the enemy attacked you. You now have ' + player1.health + ' health points left. ')
 
@@ -48,7 +48,7 @@ function encounter(aggressor){
         
       }
     }if(aggressor.health <= 0){
-        player1.inventory.push(aggressor.inventory);
+        player1.inventory.push(aggressor.inventory);  //<--must put .join wher you check player inventory to incorporate this.
         console.log('Nicely done! You gained your enemy\'s possession. Check your inventory to see what it is. ')
     }
 }

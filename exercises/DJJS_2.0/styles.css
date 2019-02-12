@@ -19,6 +19,7 @@
     width: 100px;
     background-color: brown;
     margin-top: 15px;
+    border: solid 5px;
     border-bottom-width: 30px;
     border-left-width: 30px;
     border-right-width: 30px;
@@ -36,6 +37,7 @@
     border-left-width: 30px;
     border-right-width: 30px;
     border-top-width: 30px; */
+    border: solid 5px;
     border-bottom-color: red;
     border-left-color: red;
     border-right-color: yellow;
@@ -52,13 +54,37 @@
 }
 
     .box3:hover{
-      box-shadow: 15px;  
+      box-shadow: 5px 10px red; 
+      
     }
 
-/* .box4 {
+.box4 {
     height: 100px;
     width: 100px;
     background-color: black;
-} */
+    margin-top: 15px;
+}
+    .box4:hover{
+        opacity: 0.5;
+    }
 
+.box5 {
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    background-color: yellow;
+}
+    .box5:hover {
+        height:50px;
+        width: 50px;
+    }
 
+.box6 {
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    background-color: blue;
+}
+    .box6:hover {
+        float: right;
+    }
