@@ -1,0 +1,12 @@
+.todo{
+	Background-color: #7FFFD4;
+}
+
+#todo-list {
+	display: flex;
+	justify-content: space-around
+}
+
+.struck {
+	text-decoration: line-through
+}
