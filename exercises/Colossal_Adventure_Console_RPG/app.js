@@ -48,7 +48,7 @@ function encounter(aggressor){         //<--The clown, ringmaster, or acro pass 
         
       }
     }if(aggressor.health <= 0){
-        player1.inventory.push(aggressor.inventory);  //<--must put .join wher you check player inventory to incorporate this.
+        player1.inventory.push(aggressor.inventory);  //<--must put .join where you check player inventory to incorporate this.
         console.log('Nicely done! You gained your enemy\'s possession. Check your inventory to see what it is. ')
     }
 }
@@ -78,7 +78,7 @@ function walk(){
         whoAttacks();
     } else {
         console.log('Nothing has happened yet.')
-    } //I need this to loop back to choose to explore q, though
+    } //I need this to loop back to choose to explore w, though
 }
 
 var playerName = readline.question('You\'re going to the circus! Bright lights, acrobats, and clowns. Color and candy and peanut shells. What\'s your name? ')
