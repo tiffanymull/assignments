@@ -10,3 +10,7 @@
 .struck {
 	text-decoration: line-through
 }
+
+.nostrike {
+    text-decoration-line: none
+}
