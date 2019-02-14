@@ -7,10 +7,10 @@
 	justify-content: space-around
 }
 
-.struck {
-	text-decoration: line-through
-}
-
-.nostrike {
-    text-decoration-line: none
+form {
+	/* Margin: auto; */
+Display: grid;
+Grid-template-columns: 1fr;
+Width: 40%;
+Grid-gap: 10px;
 }
