@@ -1,0 +1,22 @@
+.wrapper {
+    width: 100%;
+}
+/* design for cell phone first for width of 360 px for Galaxy S5 */
+
+
+
+
+
+/* below cell phone layout, put for ipad */
+@media only screen and (min-width: 768px) {
+    /* put images from above in here, but adjusted to look right for this width */
+    /* maybe you only put in the parts that change? */
+}
+
+
+
+
+/* I believe the next one is for the width of a computer screen */
+@media only screen and (min-width: 1280px) {
+    
+}
