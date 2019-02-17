@@ -144,24 +144,41 @@
 // console.log(printString())
 //does NOT work yet
 
+// function printString() {
+//     let firstName = "Jane";
+//       if (true) {
+//         let firstName = "Kat";
+//         // console.log("Hi, " + firstName);
+//     }
+//     let lastName = "Doe";
+//       if (true) {
+//         let lastName = "Stark";
+//         // console.log(lastName);
+//     }
+//     let age = 100;
+//       if (true) {
+//         let age = 40
+//         // console.log(age);
+//         console.log("Hi, " + firstName + " " + lastName + ", how does it feel to be " + age + "?")
+//     }
+//     console.log("Hi, " + firstName + " " + lastName + ", how does it feel to be " + age + "?")
+// }
+
+// printString();
+
+//next attempt:
 function printString() {
     let firstName = "Jane";
-    if (true) {
-        let firstName = "Kat";
-        // console.log("Hi, " + firstName);
-    }
     let lastName = "Doe";
-    if (true) {
-        let lastName = "Stark";
-        // console.log(lastName);
-    }
     let age = 100;
-    if (true) {
-        let age = 40
-        // console.log(age);
+      if (true) {
+        let firstName = "Kat";
+        let lastName = Stark;
+        let age = 40;
         console.log("Hi, " + firstName + " " + lastName + ", how does it feel to be " + age + "?")
     }
-    console.log("Hi, " + firstName + " " + lastName + ", how does it feel to be " + age + "?")
+    
+    // console.log("Hi, " + firstName + " " + lastName + ", how does it feel to be " + age + "?")
 }
 
 printString();

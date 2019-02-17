@@ -1,22 +1,253 @@
 .wrapper {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 /* design for cell phone first for width of 360 px for Galaxy S5 */
+.headerLeft{
+    height: 174px;
+    width: auto;
+    border: 2px solid black;
+}
 
+.headerRight{
+    height: 60px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.textLeft1{
+    height: 954px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.textLeft2{
+    height: 775px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.textLeft3{
+    height: 860px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.topFooter{
+    height: 172px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.bottomFooter{
+    height: 100px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.designersRight{
+    height: 300px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.linksRight{
+    height: 165px;
+    width: auto;
+    border: 2px solid black;
+}
 
 
 
 
 /* below cell phone layout, put for ipad */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 488px) {
     /* put images from above in here, but adjusted to look right for this width */
     /* maybe you only put in the parts that change? */
+    .headerLeft{
+        height: 152px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .headerRight{
+        height: 60px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft1{
+        height: 742px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft2{
+        height: 569px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft3{
+        height: 654px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .topFooter{
+        height: 215px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .bottomFooter{
+        height: 118px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .designersRight{
+        height: 320px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .linksRight{
+        height: 186px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+
+
 }
 
 
 
 
 /* I believe the next one is for the width of a computer screen */
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 768px){
+    .headerLeft{
+        height: 152px;
+        width: auto;
+        border: 2px solid black;
+    }
     
+    .headerRight{
+        height: 60px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft1{
+        height: 638px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft2{
+        height: 465px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft3{
+        height: 471px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .topFooter{
+        height: 171px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .bottomFooter{
+        height: 118px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .designersRight{
+        height: 316px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .linksRight{
+        height: 186px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+
+}
+
+
+@media only screen and (min-width: 1132px) {
+    .wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .headerLeft{
+        height: 152px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .headerRight{
+        height: 60px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft1{
+        height: 638px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft2{
+        height: 465px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .textLeft3{
+        height: 471px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .topFooter{
+        height: 171px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .bottomFooter{
+        height: 118px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .designersRight{
+        height: 316px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+    .linksRight{
+        height: 186px;
+        width: auto;
+        border: 2px solid black;
+    }
+    
+
+
+
+
 }
