@@ -1,3 +1,29 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('JuliaSansOneLongQtail.woff2') format('woff2');    
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    src: url('LibreBaskervilleNormal.woff2') format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+
+p {
+    font-family: 'Libre Baskerville';
+}
+
+h2 {
+    font-family: 'Julius Sans One';
+}
+
 .wrapper {
     width: 100%;
     display: grid;
@@ -6,6 +32,7 @@
 /* design for cell phone first for width of 360 px for Galaxy S5 */
 .header{
     background-image: url("huntington.jpg");
+    /* background-image: url("gridlines-opaque.png"); */
 }
 
 
@@ -53,6 +80,7 @@
     width: auto;
     border: 2px solid black;
     background-color: 193226;
+    
 }
 
 .designersRight{
@@ -134,9 +162,6 @@
 
 }
 
-
-
-
 /* I believe the next one is for the width of a computer screen */
 @media only screen and (min-width: 768px){
     .headerLeft{
@@ -202,7 +227,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 2fr 6fr 6fr 6fr 2fr 1fr;
+        grid-auto-rows: max-content;
     }
     .headerLeft{
         
@@ -214,7 +239,7 @@
     }
     
     .headerRight{
-        
+        height: 100%;
         border: 2px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
@@ -268,7 +293,7 @@
     }
     
     .designersRight{
-        
+        height: 100%;
         border: 2px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
@@ -277,7 +302,7 @@
     }
     
     .linksRight{
-       
+        height: 100%;
         border: 2px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
