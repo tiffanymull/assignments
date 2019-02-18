@@ -14,3 +14,8 @@ Grid-template-columns: 1fr;
 Width: 40%;
 Grid-gap: 10px;
 }
+
+img{
+	max-height: 200px;
+	width: auto;
+}
