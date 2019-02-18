@@ -17,9 +17,18 @@
 
 p {
     font-family: 'Normal Paragraph';
+    color: #325050;
+}
+
+h1 {
+    font-family: 'Titles for Paragraphs';
 }
 
 h2 {
+    font-family: 'Titles for Paragraphs';
+}
+
+h3 {
     font-family: 'Titles for Paragraphs';
 }
 
@@ -32,6 +41,7 @@ h4 {
 ul {
     list-style-type: none;
     font-family: 'Titles for Paragraphs';
+    font-size: 22;
 }
 
 .wrapper {
@@ -41,21 +51,24 @@ ul {
 }
 /* design for cell phone first for width of 360 px for Galaxy S5 */
 .header{
-    background-image: url("huntington.jpg");
+    /* background-image: url("huntington.jpg"); */
     /* background-image: url("gridlines-opaque.png"); */
+    background: url('huntington.jpg') no-repeat,
+                url('gridlines.png') repeat;
+    margin: 0;
 }
 
 
 .headerLeft{
     height: 174px;
     width: auto;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .headerRight{
     height: 60px;
     width: auto;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .textLeft1{
@@ -67,7 +80,7 @@ ul {
 .textLeft2{
     height: 775px;
     width: auto;
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: BDD5C7;
     background-image: url("bamboo.png");
 }
@@ -75,20 +88,20 @@ ul {
 .textLeft3{
     height: 860px;
     width: auto;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .topFooter{
     height: 172px;
     width: auto;
-    border: 2px solid black;
+    border: 1px solid black;
     background-image: url("koi.jpg")
 }
 
 .bottomFooter{
     height: 100px;
     width: auto;
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: 124346;
     
 }
@@ -96,14 +109,14 @@ ul {
 .designersRight{
     height: 300px;
     width: auto;
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: E5EDE8;
 }
 
 .linksRight{
     height: 165px;
     width: auto;
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: BDD5C7;
     background-image: url("bamboo.png")
 }
@@ -118,55 +131,55 @@ ul {
     .headerLeft{
         height: 152px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .headerRight{
         height: 60px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .textLeft1{
         height: 742px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .textLeft2{
         height: 569px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .textLeft3{
         height: 654px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .topFooter{
         height: 215px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .bottomFooter{
         height: 118px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .designersRight{
         height: 320px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .linksRight{
         height: 186px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
 
@@ -178,55 +191,55 @@ ul {
     .headerLeft{
         height: 152px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .headerRight{
         height: 60px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .textLeft1{
         height: 638px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .textLeft2{
         height: 465px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .textLeft3{
         height: 471px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .topFooter{
         height: 171px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .bottomFooter{
         height: 118px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .designersRight{
         height: 316px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
     .linksRight{
         height: 186px;
         width: auto;
-        border: 2px solid black;
+        border: 1px solid black;
     }
     
 
@@ -242,7 +255,7 @@ ul {
     }
     .headerLeft{
         
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 2;  
         grid-row-start: 1;
@@ -251,7 +264,7 @@ ul {
     
     .headerRight{
         height: 100%;
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 1;
@@ -260,7 +273,7 @@ ul {
     
     .textLeft1{
         
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
@@ -269,7 +282,7 @@ ul {
     
     .textLeft2{
        
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
@@ -278,7 +291,7 @@ ul {
     
     .textLeft3{
         
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 4;
@@ -287,7 +300,7 @@ ul {
     
     .topFooter{
        
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 5;
@@ -296,7 +309,7 @@ ul {
     
     .bottomFooter{
         
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 6;
@@ -305,7 +318,7 @@ ul {
     
     .designersRight{
         height: 100%;
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
@@ -314,7 +327,7 @@ ul {
     
     .linksRight{
         height: 100%;
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 3;
@@ -322,7 +335,7 @@ ul {
     }
     
     .blankBoxRight{
-        border: 2px solid black;
+        border: 1px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 4;
