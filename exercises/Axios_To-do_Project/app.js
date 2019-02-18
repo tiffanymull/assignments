@@ -6,11 +6,11 @@ axios.get("https://api.vschool.io/Tiffany/todo").then(function(response){
     var input = document.createElement("input")          //it is attached to get element below
     var title = document.createElement("h3")               //There is a toDoContainer for each task item
     var image = document.createElement("img")
-    var deleteBox = document.createElement("input")
+    var deleteBox = document.createElement("button")  //<--not input
     
 
         input.type = "checkbox"
-        deleteBox.type = "button"
+        deleteBox.textContent = "Delete"
 
         if(toDoArray[i].completed){     //<--This is telling webpage to do what's in the databasae
         //    todoContainer.style.textDecoration = "line-through"; //<--not undoing line through
@@ -35,9 +35,9 @@ axios.get("https://api.vschool.io/Tiffany/todo").then(function(response){
             
         })
 
-        input.addEventListener("click", function(e){  //<--parentNode is toDoContainer(task)
-            axios.delete("https://api.vschool.io/Tiffany/todo/" + e.target.parentNode.id, {data: e.target.delete}).then(function(response){
-                e.target.parentNode.style.display = "none";
+        deleteBox.addEventListener("click", function(e){  //<--parentNode is toDoContainer(task)
+            axios.delete("https://api.vschool.io/Tiffany/todo/" + e.target.parentNode.id).then(function(response){
+                e.target.parentNode.remove()   //<--.remove()
             })
         })
          
