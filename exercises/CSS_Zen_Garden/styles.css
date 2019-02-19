@@ -84,16 +84,27 @@ li {
     margin: 0;
 }
 
-
 .headerLeft{
     width: auto;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .headerRight{
     width: auto;
     border: 1px solid black;
+    text-align: center;
 }
+
+        .greaterThan{
+            text-align: right;
+        }
+        .viewDesigns{
+            /* padding-top: 20px; */
+        }
+
+
 
 .textLeft1{
     width: auto;
@@ -136,6 +147,7 @@ li {
     width: auto;
     border: 1px solid black;
     background-color: E5EDE8;
+   
 }
 
 .flexDesigners {
@@ -166,6 +178,8 @@ li {
     .headerLeft{
         width: auto;
         border: 1px solid black;
+        display: flex;
+        flex-direction: row;
     }
     
     .headerRight{
