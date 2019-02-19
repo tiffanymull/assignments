@@ -15,6 +15,11 @@
     src: url(verdemoderna.ttf);
 }
 
+@font-face {
+    font-family: 'Italic Libre';
+    src: url(LibreBaskervilleItalic.woff2);
+}
+
 p {
     font-family: 'Normal Paragraph';
     color: #325050;
@@ -45,6 +50,12 @@ h4 {
     /* h4 font size jumps to about 60 at screen width of 1272 */
 }
 
+h5 {
+    font-family: 'Italic Libre';
+    font-size: 25;
+
+}
+
 ul {
     height: 100%;
     list-style-type: none;
@@ -64,10 +75,9 @@ li {
 }
 /* design for cell phone first for width of 360 px for Galaxy S5 */
 .header{
-    /* background-image: url("huntington.jpg"); */
-    /* background-image: url("gridlines-opaque.png"); */
-    background: url('huntington.jpg') no-repeat,
-                url('gridlines.png') repeat;
+    background:  url('gridlines.png') repeat,
+        url('contours-opaque.png') repeat,
+        url('huntington.jpg') no-repeat;
     margin: 0;
 }
 
@@ -108,7 +118,11 @@ li {
     /* height: 172px; */
     width: auto;
     border: 1px solid black;
-    background-image: url("koi.jpg")
+    /* background-image: url("koi.jpg") */
+    background:  url('gridlines.png') repeat,
+        url('contours-opaque.png') repeat,
+        url('koi.jpg') no-repeat;
+    margin: 0;
 }
 
 .bottomFooter{
@@ -116,6 +130,7 @@ li {
     width: auto;
     border: 1px solid black;
     background-color: 124346;
+    text-align: center;
     
 }
 
