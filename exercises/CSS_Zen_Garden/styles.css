@@ -63,7 +63,8 @@ ul {
     height: 100%;
     list-style-type: none;
     font-family: 'Titles for Paragraphs';
-    font-size: 22;  
+    font-size: 20;  
+    color: 607476;
 }
 
 li {
@@ -149,12 +150,10 @@ li {
     background-color: E5EDE8;
    
 }
-
-.flexDesigners {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+        .positionDesigners {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
 
 .linksRight{
     width: auto;
@@ -162,12 +161,10 @@ li {
     background-color: B0CDBC;
     background-image: url("bamboo.png")
 }
-
-.flexLinks{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+        .positionLinks{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
 
 
 
@@ -356,6 +353,11 @@ li {
         grid-row-end: 3;
         
     }
+            .positionDesigners {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
     
     .linksRight{
         height: 100%;
@@ -365,7 +367,11 @@ li {
         grid-row-start: 3;
         grid-row-end: 4;
     }
-    
+            .positionLinks{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
     /* .threeLayers {
         background: url('gridlines.png') repeat,
         url('contours-opaque.png') repeat,
