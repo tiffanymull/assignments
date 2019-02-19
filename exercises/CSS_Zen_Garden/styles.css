@@ -94,14 +94,12 @@ li {
 
 .headerLeft{
     width: auto;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
 
 .headerRight{
     width: auto;
-    border: 1px solid black;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -119,13 +117,11 @@ li {
 
 .textLeft1{
     width: auto;
-    border: 2px solid black;
     padding: 50px 50px 50px 50px;
 }
 
 .textLeft2{
     width: auto;
-    border: 1px solid black;
     background-color: BDD5C7;
     background-image: url("bamboo.png");
     padding: 50px 50px 50px 50px;
@@ -133,13 +129,11 @@ li {
 
 .textLeft3{
     width: auto;
-    border: 1px solid black;
     padding: 50px 50px 50px 50px;
 }
 
 .topFooter{
     width: auto;
-    border: 1px solid black;
     /* background-image: url("koi.jpg") */
     background:  url('gridlines.png') repeat,
         url('contours-opaque.png') repeat,
@@ -150,14 +144,12 @@ li {
 
 .bottomFooter{
     width: auto;
-    border: 1px solid black;
     background-color: 124346;
     text-align: center;
 }
 
 .designersRight{
     width: auto;
-    border: 1px solid black;
     background-color: E5EDE8;
    
 }
@@ -168,7 +160,6 @@ li {
 
 .linksRight{
     width: auto;
-    border: 1px solid black;
     background-color: B0CDBC;
     background-image: url("bamboo.png")
 }
@@ -182,49 +173,40 @@ li {
     
     .headerLeft{
         width: auto;
-        border: 1px solid black;
         display: flex;
         flex-direction: row;
     }
     
     .headerRight{
         width: auto;
-        border: 1px solid black;
     }
     
     .textLeft1{
         width: auto;
-        border: 1px solid black;
     }
     
     .textLeft2{
         width: auto;
-        border: 1px solid black;
     }
     
     .textLeft3{
         width: auto;
-        border: 1px solid black;
     }
     
     .topFooter{
         width: auto;
-        border: 1px solid black;
     }
     
     .bottomFooter{
         width: auto;
-        border: 1px solid black;
     }
     
     .designersRight{
         width: auto;
-        border: 1px solid black;
     }
     
     .linksRight{
         width: auto;
-        border: 1px solid black;
     }
     
 
@@ -235,49 +217,40 @@ li {
 @media only screen and (min-width: 768px){
     .headerLeft{
         width: auto;
-        border: 1px solid black;
         text-align: center;
     }
            
     
     .headerRight{
         width: auto;
-        border: 1px solid black;
     }
     
     .textLeft1{
         width: auto;
-        border: 1px solid black;
     }
     
     .textLeft2{
         width: auto;
-        border: 1px solid black;
     }
     
     .textLeft3{
         width: auto;
-        border: 1px solid black;
     }
     
     .topFooter{
         width: auto;
-        border: 1px solid black;
     }
     
     .bottomFooter{
         width: auto;
-        border: 1px solid black;
     }
     
     .designersRight{
         width: auto;
-        border: 1px solid black;
     }
     
     .linksRight{
         width: auto;
-        border: 1px solid black;
     }
     
 }
@@ -300,9 +273,7 @@ li {
         padding-bottom: 50px;
     }
     
-    .headerLeft{
-        
-        border: 1px solid black;
+    .headerLeft{  
         grid-column-start: 1;
         grid-column-end: 2;  
         grid-row-start: 1;
@@ -312,7 +283,6 @@ li {
     
     .headerRight{
         height: 100%;
-        border: 1px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 1;
@@ -321,8 +291,6 @@ li {
     }
     
     .textLeft1{
-        
-        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
@@ -330,8 +298,6 @@ li {
     }
     
     .textLeft2{
-       
-        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
@@ -339,8 +305,6 @@ li {
     }
     
     .textLeft3{
-        
-        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 4;
@@ -348,8 +312,6 @@ li {
     }
     
     .topFooter{
-       
-        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 5;
@@ -358,8 +320,6 @@ li {
     }
     
     .bottomFooter{
-        
-        border: 1px solid black;
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 6;
@@ -368,7 +328,6 @@ li {
     
     .designersRight{
         height: 100%;
-        border: 1px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
@@ -382,7 +341,6 @@ li {
     
     .linksRight{
         height: 100%;
-        border: 1px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 3;
@@ -401,7 +359,6 @@ li {
     } */
 
     .blankBoxRight{
-        border: 1px solid black;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 4;
