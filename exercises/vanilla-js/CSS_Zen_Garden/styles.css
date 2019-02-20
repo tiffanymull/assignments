@@ -21,6 +21,11 @@
 }
 
 .dottedUnderline {border-bottom: 1px dotted;}
+    
+
+.tealBackground {background-color: none;}
+
+        .tealBackground:hover {background-color: teal;}
 
 a {
     text-decoration: none;
@@ -60,7 +65,7 @@ h4 {
     font-family: 'Weird Symbols';
     font-size: 50;
     color: 89A1A3;
-    letter-spacing: 30px;
+    letter-spacing: 7px;
     /* h4 font size jumps to about 60 at screen width of 1272 */
 }
         h4:hover{
@@ -109,7 +114,9 @@ li {
     width: auto;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
+
 
 .headerRight{
     width: auto;
@@ -184,10 +191,15 @@ li {
 
 @media only screen and (min-width: 488px) {
     
+    h4 {
+        letter-spacing: 20px;
+    }
+
     .headerLeft{
         width: auto;
         display: flex;
         flex-direction: row;
+        text-align: center;
     }
     
     .headerRight{
@@ -228,9 +240,14 @@ li {
 
 /* I believe the next one is for the width of a computer screen */
 @media only screen and (min-width: 768px){
+    h4 {
+        letter-spacing: 30px;
+    }
+
     .headerLeft{
         width: auto;
         text-align: center;
+        padding-left: 145px;
     }
            
     
@@ -279,6 +296,10 @@ li {
     
     h1{
         font-size: 50px;
+    }
+
+    h4 {
+        letter-spacing: 41px;
     }
     
     .header {
