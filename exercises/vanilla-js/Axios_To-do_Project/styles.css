@@ -1,11 +1,27 @@
-.todo{
-	Background-color: #7FFFD4;
+body{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: F8F9EA;
+	background-color: black;
+	align-content: center;
+	padding-left: 100px;
 }
 
-#todo-list {
-	display: flex;
-	justify-content: space-around
+h1{
+	color: F8F9EA;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.todoContainer{
+	/* Background-color: #7FFFD4; */
+	border: 1px solid black;
+}
+
+/* #toDoList {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+} */
+
 
 form {
 	/* Margin: auto; */
