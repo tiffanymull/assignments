@@ -20,6 +20,15 @@
     src: url(LibreBaskervilleItalic.woff2);
 }
 
+.dottedUnderline {border-bottom: 1px dotted;}
+
+a {
+    text-decoration: none;
+}
+        a:hover {
+            text-decoration: underline;
+        }
+
 p {
     font-family: 'Normal Paragraph';
     color: #325050;
@@ -54,6 +63,10 @@ h4 {
     letter-spacing: 30px;
     /* h4 font size jumps to about 60 at screen width of 1272 */
 }
+        h4:hover{
+            /* color:124346; */
+        }
+
 
 h5 {
     font-family: 'Italic Libre';
@@ -75,9 +88,9 @@ li {
     border-bottom: 1px #325050;
 }
     /* I don't know why the underline isn't working */
-    li:hover{
-        color: 0D8BA1;
-    }
+        li:hover{
+            color: 0D8BA1;
+        }
 
 .wrapper {
     width: 100%;
