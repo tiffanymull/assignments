@@ -1,0 +1,13 @@
+.destination{
+    border: 1px solid black;
+    max-width: 600px;
+    height: auto;
+    margin: 10px;
+    background-color: blanchedalmond;
+    padding-left: 20px;
+}
+
+.destination > img {
+    max-width: 300px;
+    height:auto;
+}

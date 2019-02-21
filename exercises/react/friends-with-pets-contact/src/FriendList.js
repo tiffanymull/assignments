@@ -1,29 +1,80 @@
 import React from 'react'
-import Pet from './Pet';
+import Friend from './Friend'
 
+const FriendList = () => {
+  const friends = [
+    {
+      name: "Ben",
+      age: 29,
+      pets: [
+        {
+          name: "spot",
+          breed: "tabby"
+        },{
+          name: "John Johnson",
+          breed: "husky"
+        },{
+          name: "Bear the bear",
+          breed: "Grizzly"
+        }
+      ]
+    },{
+      name: "Bob",
+      age: 31,
+      pets: [
+        {
+          name: "Sally",
+          breed: "Australian Shepard"
+        }
+      ]
+    },{
+      name: "Marcus",
+      age: 25,
+      pets: [
+        {
+          name: "Indy",
+          breed: "Akita"
+        },{
+          name: "Anna",
+          breed: "persian cat"
+        }
+      ]
+    },{
+      name: "Jacob",
+      age: 20,
+      pets: [
+        {
+          name: "fluffy",
+          breed: "sphynx cat"
+        },{
+          name: "patches",
+          breed: "sphynx cat"
+        },{
+          name: "tiger",
+          breed: "sphynx cat"
+        },{
+          name: "oscar",
+          breed: "sphynx cat"
+        }
+      ]
+    }
+  ]
 
-const FriendList = (props) => {
-    // console.log(props)
-    const mappedBreed = props.animal.map((animal) => {
-        
-        return (
-        //   animal.name
-          <Pet petName = {animal.name}
-          petBreed = {animal.breed}
-          />
-        )
-      })
-    //   console.log(mappedBreed)
-
-      return (
-       
-
-        <div>
-            {mappedBreed}
-            <h3>Your friend, {props.name}, </h3>
-            {/* <h2>owns {props.animal}</h2> */}
-        </div>
+  const mappedFriendList = friends.map((friend) => {
+    return (
+      <Friend
+            name={friend.name}
+            age={friend.age}
+            petList={friend.pets}
+      />
     )
+  })
+
+  return (
+    <div>
+      {mappedFriendList}
+    </div>
+  )
 }
 
 export default FriendList

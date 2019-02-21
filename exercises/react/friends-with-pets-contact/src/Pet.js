@@ -1,14 +1,12 @@
 import React from 'react'
 
 const Pet = (props) => {
-    console.log(props)
     return (
-       
-        <div>
-            <h1>{props.petName}</h1>
-            <h2>{props.petBreed}</h2>
-
-        </div>
+        <ul>
+            <li>{props.name}</li>
+            <li>{props.breed}</li>
+            <br/>
+        </ul>
     )
 }
 

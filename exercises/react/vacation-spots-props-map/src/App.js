@@ -1,5 +1,6 @@
 import React from 'react'
 import VacationSpots from './VacationSpots'
+import "./style.css"
 
 const destinations = [
   {
@@ -48,7 +49,7 @@ const App = () => {
   return (
     <div>
       {mappedDestinations}
-      Hi.
+      
     </div>
   )
 }
