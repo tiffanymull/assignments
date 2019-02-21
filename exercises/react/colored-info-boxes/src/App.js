@@ -23,37 +23,37 @@ const App = () => {
           title="Title 4"
           subtitle="Subtitle 4"
           information="This is the information."
-          backgroundcolor= "aqua" />
+          backgroundcolor= "green" />
       <InfoBoxes
           title="Title 5"
           subtitle="Subtitle 5"
           information="This is the information."
-          backgroundcolor= "aqua" />
+          backgroundcolor= "yellow" />
       <InfoBoxes
           title="Title 6"
           subtitle="Subtitle 6"
           information="This is the information."
-          backgroundcolor= "aqua" />
+          backgroundcolor= "teal" />
       <InfoBoxes
           title="Title 7"
           subtitle="Subtitle 7"
           information="This is the information."
-          backgroundcolor= "aqua" />
+          backgroundcolor= "red" />
       <InfoBoxes
           title="Title 8"
           subtitle="Subtitle 8"
           information="This is the information."
-          backgroundcolor= "aqua" />
+          backgroundcolor= "blue" />
       <InfoBoxes
           title="Title 9"
           subtitle="Subtitle 9"
           information="This is the information."
-          backgroundcolor= "aqua" />
+          backgroundcolor= "gray" />
       <InfoBoxes
           title="Title 10"
           subtitle="Subtitle 10"
           information="This is the information."
-          backgroundcolor= "aqua" />
+          backgroundcolor= "orange" />
       Hi.
     </div>
   )

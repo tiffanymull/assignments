@@ -2,7 +2,7 @@ import React from 'react'
 
 const InfoBoxes = (props) => {
     const styles = {
-        backgroundColor: props.InfoBoxes.backgroundcolor
+        backgroundColor: props.backgroundcolor
     }
     return (
         <div style={styles}>
