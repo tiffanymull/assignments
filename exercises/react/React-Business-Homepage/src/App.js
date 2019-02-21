@@ -10,8 +10,8 @@ const App = () => {
             <Navbar />
             <InfoSection />
             <Services />
-            Hello World
             <Footer />
+            The Great Salt Lake is the center of the universe.
         </div>
     )
 }
