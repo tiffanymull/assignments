@@ -9,7 +9,6 @@ const App = () => {
           subtitle: "Subtitle 1", 
           information: "This is the information.",
           backgroundcolor: "pink"}}
-          // backgroundcolor=
       />
       <ColoredInfoBoxes 
           infoBox={{title:"Title 2",
