@@ -64,7 +64,7 @@ const FriendList = () => {
     return (
       <Friend
             name={friend.name}
-            age={friend.age}
+            years={friend.age}
             petList={friend.pets}
       />
     )

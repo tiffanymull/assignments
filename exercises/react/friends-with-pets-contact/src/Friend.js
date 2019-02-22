@@ -12,7 +12,7 @@ const Friend = (props) => {
     return (
         <div>
             <h1>Name: {props.name}</h1>
-            <h3>Age: {props.age}</h3>
+            <h3>Age: {props.years}</h3>
             {mappedPets}
         </div>
     )
