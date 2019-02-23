@@ -31,20 +31,25 @@ class App extends Component {
   constructor(){
     super()
   
+      const mappedHeroes = superheroes.map((superhero) => {
+        return(
+          <Superhero
+            name={superhero.hero}
+            pic={superhero.imgUrl}
+            />
+        )
+
+      })
   
   
   }
 
 
 
-
-
-
-
 render(){
   return (
     <div>
-      Hello
+      {mappedHeroes}
     </div>
   )
 }

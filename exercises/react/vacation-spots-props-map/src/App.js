@@ -44,6 +44,10 @@ const App = () => {
       )
   }
 
+  //I think this is where I'd do an if/else to change colors etc.?
+  //Maybe would be easier if background were stipulated in JavaScript?
+  //Maybe later I can come back and do this, comparing dj react colors.
+
   )
   
   return (
