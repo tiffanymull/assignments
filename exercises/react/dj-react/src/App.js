@@ -1,75 +1,71 @@
-import React, {Component} from 'react';
-import "./style.css"
+import React, { Component } from 'react';
+import "./App.css";
 
 class App extends Component {
   constructor(){
     super()
-      this.state = {
-        styles: {                           //styles is just an object we made
-          backgroundColor: 'white'            //use function to target individual boxes with individual styles
-        },
-        style1: {
-          backgroundColor: 'white'
-        },
-        style2: {
-          backgroundColor: 'white'
-        },
-        style3: {
-          backgroundColor: 'white'
-        },
-        style4: {
-          backgroundColor: 'white'
-        }
-      }
+    this.state = {
+      box1: "white",
+      box2: "white",
+      box3: "white",
+      box4: "white",
+      isWhite: true
+    }
   }
 
-    toWhite = () => {
-      if(this.state.styles.backgroundColor === 'white'){  //have to guide it through the object
-        console.log('hit')
-        this.setState({styles:{
-          backgroundColor: "black"}
-        })
-      }else{                          //this is just an else statement
-        console.log('hit2')
-        this.setState({styles:{
-          backgroundColor: "white"}
-        })
+toggle = () => {
+  this.setState((prevState) => {
+    if(prevState.isWhite) {
+      return {
+        box1: "black",
+      box2: "black",
+      box3: "black",
+      box4: "black",
+      isWhite: false
+      }
+    }else {
+      return{
+      box1: "white",
+      box2: "white",
+      box3: "white",
+      box4: "white",
+      isWhite: true
       }
     }
+  })
+}
 
-    topPurple = () => {
-      if(this.state.styles.backgroundColor === 'white'){
-        this.setState({styles:{
-          backgroundColor: "purple"}
-        })
-      }else if(this.state.styles.backgroundColor === 'black'){
-        this.setState({styles:{
-          backgroundColor: "purple"}
-      })
-      }else{
-        this.setState({styles:{
-          backgroundColor: "white"}
-        })
-      }
-    }
+turnPurple = () => {
+  this.setState({box1: "purple", box2: "purple"})
+}
 
-  render(){
-//inline styles to grab css style
+turnLeftBlue = () => {
+  this.setState({box3: "blue"})
+}
+
+turnRightBlue = () => {
+  this.setState({box4: "blue"})
+}
+
+  render() {
     return (
       <div className="wrapper">
-        {/* <div className="topTwoBoxes"> */}
-          <div className="box1 topBox" style={this.state.styles}>Box 1</div>    
-          <div className="box2 topBox" style={this.state.styles}>Box 2</div>
-        {/* </div> */}
-        <div className="box3" style={this.state.styles}>Box 3</div>
-        <div className="box4" style={this.state.styles}>Box 4</div>
-        <button onClick={this.toWhite}>Change All Black/White</button>
-        <button onClick={this.topPurple}>Change Top Purple</button>
+        <div className="box" style={{backgroundColor: this.state.box1}}>Box 1</div>
+        <div className="box" style={{backgroundColor: this.state.box2}}>Box 2</div>
+        <div className="box" style={{backgroundColor: this.state.box3}}>Box 3</div>
+        <div className="box" style={{backgroundColor: this.state.box4}}>Box 4</div>
+        <button onClick={this.toggle}> {this.state.isWhite ? "Change all to Black": "Change all to White"}</button>
+        <button onClick={this.turnPurple}>Top Purple</button>
+        <button onClick={this.turnLeftBlue}>Bottom Left Blue</button>
+        <button onClick={this.turnRightBlue}>Bottom Right Blue</button>
       </div>
-    )
+    );
   }
 }
 
-//I'm not sure how to target only the top boxes. Maybe I add another div layer? Another set state?
+export default App;
 
-export default App
+
+
+
+
