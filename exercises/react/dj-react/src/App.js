@@ -17,7 +17,7 @@ toggle = () => {
   this.setState((prevState) => {
     if(prevState.isWhite) {
       return {
-        box1: "black",
+      box1: "black",
       box2: "black",
       box3: "black",
       box4: "black",
@@ -47,6 +47,22 @@ turnRightBlue = () => {
   this.setState({box4: "blue"})
 }
 
+topLeftGreen = () => {
+  this.setState({box1: "green"})
+}
+
+topRightOrange = () => {
+  this.setState({box2: "orange"})
+}
+
+bottomLeftPink = () => {
+  this.setState({box3: "pink"})
+}
+
+bottomRightAqua = () => {
+  this.setState({box4: "aqua"})
+}
+
   render() {
     return (
       <div className="wrapper">
@@ -58,6 +74,10 @@ turnRightBlue = () => {
         <button onClick={this.turnPurple}>Top Purple</button>
         <button onClick={this.turnLeftBlue}>Bottom Left Blue</button>
         <button onClick={this.turnRightBlue}>Bottom Right Blue</button>
+        <button onClick={this.topLeftGreen}>Top Left Green</button>
+        <button onClick={this.topRightOrange}>Top Right Orange</button>
+        <button onClick={this.bottomLeftPink}>Bottom Left Pink</button>
+        <button onClick={this.bottomRightAqua}>Bottom Right Aqua</button>
       </div>
     );
   }
