@@ -4,11 +4,11 @@ class App extends Component {
   constructor(){
     super()
       this.state = {
-          die1: 1,
-          die2: 1,
-          die3: 1,
-          die4: 1,
-          die5: 1
+          die1: Math.floor((Math.random() * 6) + 1),
+          die2: Math.floor((Math.random() * 6) + 1),
+          die3: Math.floor((Math.random() * 6) + 1),
+          die4: Math.floor((Math.random() * 6) + 1),
+          die5: Math.floor((Math.random() * 6) + 1)
       }
   
   }
@@ -16,13 +16,19 @@ class App extends Component {
   roll = () => {
     this.setState((prevState) => {
       return {
-        die1: prevState.die1 + Math.floor((Math.random() * 6) + 1)
+        die1: prevState.die1 = Math.floor((Math.random() * 6) + 1),
+        die2: prevState.die1 = Math.floor((Math.random() * 6) + 1),
+        die3: prevState.die1 = Math.floor((Math.random() * 6) + 1),
+        die4: prevState.die1 = Math.floor((Math.random() * 6) + 1),
+        die5: prevState.die1 = Math.floor((Math.random() * 6) + 1)
       }
     })
   }
   // somewhere i would put Math.floor((Math.random() * 6) + 1); 
   //but probably as a fat arrow function
   //I believe what they're getting at is that they want 5 dice
+
+  
 
 render(){
   return (
