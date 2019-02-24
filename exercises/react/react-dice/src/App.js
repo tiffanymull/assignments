@@ -31,11 +31,11 @@ class App extends Component {
 render(){
   return (
     <div className="wrapper">
-      <div className="dice">Die 1: {this.state.die1}</div>
-      <div className="dice">Die 2: {this.state.die2}</div>
-      <div className="dice">Die 3: {this.state.die3}</div>
-      <div className="dice">Die 4: {this.state.die4}</div>
-      <div className="dice">Die 5: {this.state.die5}</div>
+      <div className="dice">Die One: {this.state.die1}</div>
+      <div className="dice">Die Two: {this.state.die2}</div>
+      <div className="dice">Die Three: {this.state.die3}</div>
+      <div className="dice">Die Four: {this.state.die4}</div>
+      <div className="dice">Die Five: {this.state.die5}</div>
       <button onClick={this.roll}>Roll</button>
     </div>
 
