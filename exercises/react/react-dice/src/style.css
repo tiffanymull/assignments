@@ -1,5 +1,12 @@
 
 .wrapper{
     display: grid;
-    grid-template-rows: 100px 100px 100ppx 100px
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px
+}
+
+.dice{
+    border: 1px solid black;
+    /* height: 100px;
+    width: 100px; */
 }

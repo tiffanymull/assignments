@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './style.css'
 
 class App extends Component {
   constructor(){
@@ -24,9 +25,6 @@ class App extends Component {
       }
     })
   }
-  // somewhere i would put Math.floor((Math.random() * 6) + 1); 
-  //but probably as a fat arrow function
-  //I believe what they're getting at is that they want 5 dice
 
   
 
@@ -40,6 +38,7 @@ render(){
       <div className="dice">Die 5: {this.state.die5}</div>
       <button onClick={this.roll}>Roll</button>
     </div>
+
   )
 
 }
