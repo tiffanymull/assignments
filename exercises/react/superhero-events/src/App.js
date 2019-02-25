@@ -32,22 +32,23 @@ class App extends Component {
             imgUrl: "http://circulador.files.wordpress.com/2010/06/desire3.jpg"
           }
           ]
-    }
+    }  }
     
-      const mappedHeroes = this.state.superheroes.map((superhero) => {
-        
-        
-        return(
-          <Superhero
-            name={superhero.hero}
-            pic={superhero.imgUrl}
-            />
-        )
-
-      })
-  }
+      // only methods you want to belong to component go here
+  
 
 render(){
+  const mappedHeroes = this.state.superheroes.map((superhero) => {     //<-turns out this had to go in render byt before the return
+        
+        
+    return(
+      <Superhero
+        name={superhero.hero}
+        pic={superhero.imgUrl}
+        />
+    )
+
+  })
   return (
     <div>
       {mappedHeroes}
@@ -56,11 +57,6 @@ render(){
 }
 
 }
-
-
-
-
-
 
 
 
