@@ -3,15 +3,15 @@ import React, {Component} from 'react';
 class Superhero extends Component {
     render() {
       return (
-        <button>                          
+        <div className="theEndless" id={this.props.saying}>                          
             <h1>{this.props.name}</h1>
             <img src={this.props.pic} alt="hero pic"/>
-        </button>
+            
+        </div>
       )
     }
   }
 
-  //was it right for me to make this a button rather than a div?
 
 
 
