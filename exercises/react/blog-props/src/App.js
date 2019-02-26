@@ -3,6 +3,7 @@ import React from 'react'
 import Header from './Header'  //means Header is nested in App
 import BlogList from './BlogList' //means BlogList is nested in App
 import Footer from './Footer' 
+import './index.css'
 
 const App = () => {
     return (

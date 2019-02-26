@@ -3,7 +3,7 @@ import Navbar from './Navbar'  //means Navbar is nested in Header
 
 const Header = () => {
     return (
-        <div>
+        <div className="header">
             <Navbar />
             This is the Header
         </div>

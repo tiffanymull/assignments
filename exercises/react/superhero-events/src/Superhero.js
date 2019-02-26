@@ -3,24 +3,18 @@ import React, {Component} from 'react';
 class Superhero extends Component {
     render() {
       return (
-        <div>
+        <button>                          
             <h1>{this.props.name}</h1>
             <img src={this.props.pic} alt="hero pic"/>
-        </div>
+        </button>
       )
     }
   }
 
+  //was it right for me to make this a button rather than a div?
 
 
-// const Superhero = () => {
-//     return (
-        // <div>
-        //     <h1>{this.props.name}</h1>
-        //     <img src={this.props.pic} alt="hero pic"/>
-        // </div>
-//     )
-// }
+
 
 
 
