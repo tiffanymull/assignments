@@ -43,29 +43,21 @@ class App extends Component {
       this.handleClick = this.handleClick.bind(this)   //<--unless doing fat arrow function
   }
     
-    handleClick(event){
+    handleClick(quote){
+      alert(`Quote: ${quote}`)
       // alert('Quote: ' + this.state.superheroes.quote)
-      alert('Quotes: ' + event.target.id)   //<--whole superhero object is the target
-      event.preventDefault();
+      // alert('Quotes: ' + event.target.id)   //<--whole superhero object is the target
     }
       // only methods you want to belong to component go here
   
 
 render(){
-  const mappedHeroes = this.state.superheroes.map((superhero) => {     //<-turns out this had to go in render but before the return
-        
-        
-    return(
-      <button onClick={this.handleClick} id={superhero.quote}>
-        <Superhero
-          name={superhero.hero}
-          pic={superhero.imgUrl}
-          saying={superhero.quote}
-          />
-      </button>
-    )
-
-  })
+  const mappedHeroes = this.state.superheroes.map((superhero) =>  <Superhero
+                                                                      name={superhero.hero}
+                                                                      pic={superhero.imgUrl}
+                                                                      saying={superhero.quote}
+                                                                      handleClick={this.handleClick}
+                                                                      />)
   return (
     <div>
       {mappedHeroes}
