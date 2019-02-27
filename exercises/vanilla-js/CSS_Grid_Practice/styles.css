@@ -1,33 +1,41 @@
-.container > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #ffeead;
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 40px 40px;
+    grid-gap: 3px;
 }
 
-html, body {
-  background-color: #ffeead;
-  margin: 10px;
+.box1 {
+    background-color: red;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
-.container > div:nth-child(1n) {
-  background-color: #96ceb4;	
+.box2 {
+    background-color: blue;
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 5;
 }
 
-.container > div:nth-child(3n) {
-  background-color: #88d8b0;
+.box3 {
+    background-color: green;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
-.container > div:nth-child(2n) {
-      background-color: #ff6f69;
+.box4 {
+    background-color: purple;
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
-.container > div:nth-child(4n) {
-      background-color: #ffcc5c;
+.box5 {
+    background-color: yellow;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
-
-
-
-
-

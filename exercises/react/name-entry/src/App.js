@@ -6,14 +6,14 @@ class App extends Component {
       this.state = {
         firstName: "",
         lastName: "",
-        names: []
+        names: []        //<--what was this doing again?
       }
   }
 
-handleChange = (event) => {
+handleChange = (event) => {        //<--what was this doing?
   event.preventDefault();
   this.setState({
-    [event.target.name]: event.target.value
+    [event.target.name]: event.target.value    //<--
   })
 }
 
