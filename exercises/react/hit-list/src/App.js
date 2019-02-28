@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios'
+import './Style.css'
 
 class App extends Component {
   constructor(){
@@ -32,16 +33,16 @@ class App extends Component {
       const mappedArray = this.state.marked.map((marked, i)=>{
         return (
             // <div key={i} style={{backgroundImage: `url(${marked.image})`, height: 500}}>
-            <div key={i}>
-                {marked.name}
+            <div key={i} >
+                <h2>{marked.name}</h2>
                 <img src={marked.image} alt="the mark" />
             </div>
         )
     })
       return (
           <div>  
-            <div>Hi.</div>
-            <div>{mappedArray}</div>
+            <h1>Hit List</h1>
+            <div className="wrapper">{mappedArray}</div>
           </div>
         )
     }

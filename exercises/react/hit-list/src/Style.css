@@ -1,0 +1,14 @@
+img{
+    max-width: 400pt;
+    height: auto
+}
+
+body{
+    background-color: burlywood;
+}
+
+/* .wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+} */
