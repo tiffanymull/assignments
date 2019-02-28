@@ -22,14 +22,19 @@ class Form extends Component {
 
     }
 
+    // handleChange = e => {      
+    //     this.setState({[e.target.name]: event.target.value})
+    // } 
+
     handleChange = e => {
+        // const name = e.target.name
+        // const value = e.target.value
         const {name, value} = e.target  //save as variables so don't get erased <--this is shorthand
-        this.setState(prevstate => {
+        this.setState(prevState => {
         return {
             inputs: {
-                ...prevstate.inputs,      //<- have to nest in order for styling to not disappear. must save values already in there with spread
-                [name]: value          //<--tied to that shorthand
-                // [e.target.name]: e.target.value
+                ...prevState.inputs,
+                [name]:value
             }
         }
     })  //target knows you're in state so can start there to grab. name is grabbing all of them depending on which box user types in.
@@ -66,7 +71,8 @@ class Form extends Component {
 // }
 
     render(){
-        let {firstName, lastName, email, birth, phone, favFood, about, badges} = this.state  //variable so value only name rather than this.state.firstName in input
+        console.log(this.state.inputs)
+        let {firstName, lastName, email, birth, phone, favFood, about} = this.state.inputs  //variable so value only name rather than this.state.firstName in input
         
         const mappedBadges = this.state.badges.map((badge, i) => <Badge key={badge.firstName + i} badge={badge} />)  //way for key to always be unique
         
