@@ -19,7 +19,7 @@ const ProductList = () => {
         </div>
 
             <Switch>
-                <Route path="/products/:id" component={Product} />
+                <Route path="/products/:_id" component={Product} />
             </Switch>
 
            </React.Fragment>
