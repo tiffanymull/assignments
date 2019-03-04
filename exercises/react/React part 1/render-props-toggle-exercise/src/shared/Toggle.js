@@ -1,5 +1,5 @@
 import {Component} from 'react';   //why would I not need React before {Component}?
-
+                                    //only when say div
 class Toggle extends Component {
   constructor(){
     super()
@@ -9,7 +9,7 @@ class Toggle extends Component {
   }
 
   toggler = () => {                    //function w/in a function, right?
-      this.setState(prevState => {         //how exactly is this interacting with state?
+      this.setState(prevState => {         //prevState is a callback function. setSTate takes snapshot of state
           return {
               isToggled: !prevState.isToggled
           }
@@ -24,7 +24,7 @@ class Toggle extends Component {
             toggler: this.toggler             //what does it mean to call on the function in here?
         };
         
-        return this.props.render(stuffFromToggle)   //why is this necessary, what is this doing?
+        return this.props.render(stuffFromToggle)   //this is making state available as props
         }
 
 }
