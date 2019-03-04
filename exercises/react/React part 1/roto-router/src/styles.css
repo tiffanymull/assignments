@@ -1,3 +1,7 @@
+body{
+    background-color: blanchedalmond;
+}
+
 .table{
     display: table;
     margin: 0 auto
@@ -10,4 +14,6 @@ ul {
 
 li {
     display: inline;
+    padding: 100px;
 }
+
