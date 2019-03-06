@@ -1,4 +1,5 @@
 import React from 'react'
+import FormPastWeather from './FormPastWeather'
 // import {Link, Switch, Route} from 'react-router-dom'; 
 //may not need this? Maybe I imitate what's happening on the App in order 
 //to switch link to specific timezone pages rather than buttons
@@ -14,6 +15,7 @@ const Aftcast = () =>{
         <div>
             <h1>Aftcast</h1>
             Here is Aftcast. I think the buttons will be here?
+            <FormPastWeather />
         </div>
     )
 }
