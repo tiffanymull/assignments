@@ -8,6 +8,12 @@ import Home from './Home'
 import Tips from './Tips'
 import Aftcast from './Aftcast'
 
+import Denver from './Denver'
+import LosAngeles from './LosAngeles'
+import NewYork from './NewYork'
+import Chicago from './Chicago'
+import Phoenix from './Phoenix'
+
 const App = () => {
   return (
     <div>
@@ -17,6 +23,11 @@ const App = () => {
             <Route exact path="/" component={Home}/>
             <Route path="/tips" component={Tips}/>
             <Route path="/aftcast" component={Aftcast}/>
+            <Route path="/denver" component={Denver}></Route>
+            <Route path="/losangeles" component={LosAngeles}></Route>
+            <Route path="/newyork" component={NewYork}></Route>
+            <Route path="/chicago" component={Chicago}></Route>
+            <Route path="/phoenix" component={Phoenix}></Route>
         </Switch>
         <Footer />
     </div>
