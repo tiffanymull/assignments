@@ -29,7 +29,7 @@ class Phoenix extends Component {
             return (
                 <div key={i}>
                     <p>
-                    Weather snapshot: <br></br>
+                    Weather Snapshot: <br></br>
                     
                     UNIX time: {region.time} <br></br>
                     Summary:  {region.summary} <br></br>
