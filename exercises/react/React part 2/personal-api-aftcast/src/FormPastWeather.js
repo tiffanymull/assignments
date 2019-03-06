@@ -39,6 +39,7 @@ class FormPastWeather extends Component {
                     <button>Submit</button>
             </form>
         )
+
     }
 
 }
