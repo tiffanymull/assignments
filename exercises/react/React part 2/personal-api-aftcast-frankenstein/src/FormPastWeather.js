@@ -34,7 +34,7 @@ class FormPastWeather extends Component {
                         name='longitude'
                         value={this.state.longitude}
                         onChange={this.handleChange} />
-                    <button>Get Aftcast</button>
+                    <button className="button">Get Aftcast</button>
             </form>
         )
     }

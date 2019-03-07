@@ -28,7 +28,7 @@ class Phoenix extends Component {
         const mappedArray = this.state.regions.map((region, i)=>{
             return (
                 <div key={i}>
-                    <p>
+                  <p className="badgeItself">
                     Weather Snapshot: <br></br>
                     
                     UNIX time: {region.time} <br></br>
@@ -47,7 +47,7 @@ class Phoenix extends Component {
                     UV Index: {region.uvIndex} <br></br>
                     Visibility: {region.visibility}
 
-                    </p>
+                  </p>
                 
                 
                 </div>

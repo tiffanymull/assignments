@@ -6,8 +6,8 @@ class DisplayResult extends Component {
         console.log(this.props)
         const mappedArray = this.props.weatherHistories.map((weatherHistory, i)=>{
             return (
-                <div key={i}>
-                <p>
+                <div key={i} className="badgeContainer">
+                <p className="badgeItself">
                     Weather Snapshot: <br></br>
                     
                     UNIX time: {weatherHistory.time} <br></br>
