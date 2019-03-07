@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {withWeatherProvider} from './WeatherProvider';
 
 class DisplayResult extends Component {
-    render(){
-
+    render(props){
+        console.log(this.props)
         const mappedArray = this.props.weatherHistories.map((weatherHistory, i)=>{
             return (
                 <div key={i}>
