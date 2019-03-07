@@ -1,5 +1,6 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
+import './styles.css'
 
 import Navbar from './Navbar'
 import Footer from './Footer'
@@ -16,7 +17,7 @@ import Phoenix from './Phoenix'
 
 const App = () => {
   return (
-    <div>
+    <div className="table">
       Slap.
         <Navbar />
         <Switch>

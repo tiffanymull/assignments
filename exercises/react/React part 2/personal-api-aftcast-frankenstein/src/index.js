@@ -12,3 +12,8 @@ ReactDOM.render(
 </WeatherProvider>
 </BrowserRouter>, 
 document.getElementById('root'))
+
+
+
+//Some would argue you should wrap provider around
+//just the switch statements on the app page

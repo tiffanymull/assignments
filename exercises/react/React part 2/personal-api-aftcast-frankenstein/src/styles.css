@@ -1,0 +1,25 @@
+body {
+    background-color: darkslategray;
+    background-image: url("droplets.png");
+    color: gainsboro;
+}
+
+h1 {
+    font: cursive; 
+}
+/* Why isn't this reaching my h1s? */
+
+.table {
+    display: table;
+    margin: 0 auto
+}
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            padding: 100px;
+        }
