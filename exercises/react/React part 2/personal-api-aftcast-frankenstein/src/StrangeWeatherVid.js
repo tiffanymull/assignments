@@ -5,9 +5,12 @@ class StrangeWeatherVid extends React.Component {
     render() {
         
         return (
+           
+           <div className="strangeVid">
             <YouTube
-                videoId="UftUkRcRC_Q"
+                videoId="UftUkRcRC_Q" className="tatty"
             />
+            </div>
         );
     }
 

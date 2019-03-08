@@ -88,6 +88,14 @@ a {
             grid-column-start: 2;
             grid-column-end: 6
         }
+            .strangeVid {
+                grid-column-start: 2;
+                grid-column-end: 6
+            }
+               
+                .tatty {
+                    max-width: 100%;
+                }
 
 .snapshot {
     font-size: 30px;
