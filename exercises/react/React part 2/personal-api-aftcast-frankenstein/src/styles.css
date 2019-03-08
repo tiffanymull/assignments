@@ -20,7 +20,12 @@ h2 {
     font-size: 40px
 }
 
-
+a {
+    color: gainsboro;
+}
+    a:hover {
+        color: white;
+    }
 
 .table {
     display: table;
