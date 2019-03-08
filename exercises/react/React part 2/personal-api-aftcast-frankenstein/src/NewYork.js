@@ -27,8 +27,7 @@ class NewYork extends Component {
             return (
                 <div key={i}>
                  <p className="badgeItself">
-                    Weather Snapshot: <br></br>
-                    
+                 <p className="snapshot">Weather Snapshot </p>
                     UNIX time: {region.time} <br></br>
                     Summary:  {region.summary} <br></br>
                     Also: {region.icon} <br></br>
@@ -51,7 +50,7 @@ class NewYork extends Component {
         })
         return (
             <div>
-                <h1>America/New York Timezone</h1>
+                <h1>New York</h1>
                 <div>{mappedArray}</div>
             </div>
         )

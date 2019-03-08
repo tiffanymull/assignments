@@ -17,8 +17,10 @@ import Phoenix from './Phoenix'
 
 const App = () => {
   return (
+    //used to have table in this div as well, not optimal
+    //can't decide if I should put a wrapper here, prob not
     <div className="table">
-      Slap.
+      <p className="logo">AC</p>
         <Navbar />
         <Switch>
             <Route exact path="/" component={Home}/>

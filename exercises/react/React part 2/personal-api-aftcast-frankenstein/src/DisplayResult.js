@@ -8,8 +8,8 @@ class DisplayResult extends Component {
             return (
                 <div key={i} className="badgeContainer">
                 <p className="badgeItself">
-                    Weather Snapshot: <br></br>
-                    
+                <p className="snapshot">Weather Snapshot </p>
+                                     
                     UNIX time: {weatherHistory.time} <br></br>
                     Summary:  {weatherHistory.summary} <br></br>
                     Also: {weatherHistory.icon} <br></br>

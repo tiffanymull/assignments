@@ -4,11 +4,11 @@ import {Link} from 'react-router-dom'
 const AftNav = () => {
     return (
         <ul>
-            <Link to="/denver">Denver</Link> 
-            <Link to="/losangeles">Los Angeles</Link>
-            <Link to="/newyork">New York</Link>
-            <Link to="/chicago">Chicago</Link>
-            <Link to="/phoenix">Phoenix</Link>
+            <li className="quickRef"> <Link to="/denver">Mountain (Rocky)</Link> </li> 
+            <li className="quickRef"> <Link to="/losangeles">Pacific</Link> </li>
+            <li className="quickRef"> <Link to="/newyork">Eastern</Link> </li>
+            <li className="quickRef"> <Link to="/chicago">Central</Link> </li>
+            <li className="quickRef"> <Link to="/phoenix">Mountain (Phoenix)</Link> </li>
         </ul>
     )
 }

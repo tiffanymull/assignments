@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
     return (
         <div className="table">
-            <ul>This is the Navbar
-                <Link to="/aftcast">Aftcast</Link>
-                <Link to="/">Home</Link>
-                <Link to="/tips">Tips</Link>
+            <ul>
+                <li className="navItem"> <Link to="/aftcast">Aftcast</Link> </li>
+                <li className="navItem"> <Link to="/">Home</Link> </li>
+                <li className="navItem"> <Link to="/tips">Tips</Link> </li>
             </ul>
         </div>
     )
