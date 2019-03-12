@@ -1,7 +1,7 @@
-// const addition = (x, y) => x + y
+const addition = (x, y) => x + y
 
-const addition = function(x, y){
-    console.log('x + y')
-}
+// const addition = function(x, y){
+//     return (x + y)
+// }
 
 module.exports = addition;

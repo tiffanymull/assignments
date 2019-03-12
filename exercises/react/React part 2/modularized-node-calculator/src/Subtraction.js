@@ -1,5 +1,3 @@
-const speak = function(){
-    console.log('I am speaking')
-}
+const subtration = (x, y) => x - y
 
-module.exports = speak;
+module.exports = subtraction;

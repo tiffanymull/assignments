@@ -1,3 +1,3 @@
 const addition = require('./Addition')
 
-addition(2, 3)
+console.log(addition(2, 3))
